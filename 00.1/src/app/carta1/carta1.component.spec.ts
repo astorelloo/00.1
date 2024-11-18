@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { Observable } from 'rxjs';
 import { Carta1Component } from './carta1.component';
 
 describe('Carta1Component', () => {

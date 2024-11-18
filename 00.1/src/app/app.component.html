@@ -1,7 +1,13 @@
-<button  routerLink="/carta1">carta1 nome</button>
-<button  routerLink="/carta2">carta2 nome</button>
-<button  routerLink="/carta3">carta3 nome</button>
-<button  routerLink="/carta4">carta4 nome</button>
-<button  routerLink="/carta5">carta5 nome</button>
+<div>
+  <input [(ngModel)]="searchTerm" placeholder="cerca una carta"/>
+  <button (click)="search()">cerca!</button>
+</div>
+
+
+<button  routerLink="/card/black-lotus">black lotus</button>
+<button  routerLink="/card/unknown-shores">Unknown Shores</button>
+<button  routerLink="/card/sócrates,-profesor-ateniense">Sócrates, profesor ateniense</button>
+<button  routerLink="/card/the-one-ring">The One Ring</button>
+<button  routerLink="/card/tishana's-tidebinder">Tishana's Tidebinder</button>
 
 <router-outlet></router-outlet>
